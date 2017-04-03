@@ -8,6 +8,7 @@
 ['foo',3,{}].includes({})       // false
 ['foo','bar'].includes('zed')   // false
 
+[-0].includes(+0)               // true
 [1,2,3].includes(2)             // true
 ['foo','bar'].includes('foo')   // true
 [undefined].includes(undefined) // true
