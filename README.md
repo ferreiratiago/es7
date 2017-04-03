@@ -5,5 +5,5 @@ We could have waited one year and have ECMAScript version align with the year.
 Just a though!
 
 As for ES7 (ECMAScript 2016), here it is:
-[Array.prototype.includes](arrays.js)
-[Exponentiation Operator](exponentiation.js)
+* [Array.prototype.includes](array.js)
+* [Exponentiation Operator](exponentiation.js)
