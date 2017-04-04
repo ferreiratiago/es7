@@ -23,7 +23,7 @@
 
 // fromIndex <= 0
 // When fromIndex is negative a computed index is calculated to be used.
-// If the computed index if less than 0, the intire array is search.
+// If the computed index if less than 0, the entire array is search.
 // The computation goes like this:
 // Computed index = Array length + fromIndex
 // e.g.
