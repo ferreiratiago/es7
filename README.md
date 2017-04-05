@@ -1,6 +1,6 @@
 # ES7 (ECMAScript 2016)
 * [Array.prototype.includes](#arrayprototypeincludes)
-* [Exponentiation Operator](#exponentiationoperator)
+* [Exponentiation Operator](#exponentiation-operator)
 
 ## Array.prototype.includes
 
