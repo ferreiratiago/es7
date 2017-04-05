@@ -1,6 +1,6 @@
 # ES7 (ECMAScript 2016)
-* [Array.prototype.includes](#Array.prototype.includes)
-* [Exponentiation Operator](exponentiation.js)
+* [Array.prototype.includes](#arrayprototypeincludes)
+* [Exponentiation Operator](#exponentiationoperator)
 
 ## Array.prototype.includes
 
@@ -57,6 +57,36 @@ array.includes('b', -1)  // computed index = 4 + (-1) = 3,   result = false
 array.includes('b', -10) // computed index = 4 + (-10) = -6, result = false
 ```
 
-## Thanks :beers:
+#### Further Reading
+[Array.prototype.includes](https://github.com/tc39/Array.prototype.includes/) (Domenic Denicola, Rick Waldron)
+
+# Exponentiation Operator
+
+Exponentiation operator returns the result of raising the first operand to the power of the second (e.g. `x ** y`).
+It will return the same result as `Math.pow(x,y)`.
+
+### Syntax
+
+```
+x ** y
+```
+
+#### Example
+
+```js
+// x ** y (aka Math.pow(x,y))
+2 ** 2   // 4
+2 ** 'a' // NaN
+
+var e = 2
+e **= 2  // 4
+```
+
+#### Further Reading
+[Exponentiation Operator](https://github.com/rwaldron/exponentiation-operator) (Rick Waldron)
+
+## Thanks to :beers:
+* [2ality.com](http://2ality.com/2016/01/ecmascript-2016.html) from [@rauschma](https://twitter.com/rauschma)
 * MDN documentation
     * [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+    * [Exponentiation Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
