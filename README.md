@@ -12,11 +12,11 @@ Array `.includes()` determines if an array includes an specified element, return
 includes :: (searchElement, ?fromIndex) -> Boolean
 ```
 
-#### Parameters
+### Parameters
 * `searchElement` - the element to search on the array.
 * `fromIndex` - the index from which the search starts.
 
-#### Examples
+### Examples
 
 `includes :: (searchElement) -> Boolean`
 
@@ -57,10 +57,10 @@ array.includes('b', -1)  // computed index = 4 + (-1) = 3,   result = false
 array.includes('b', -10) // computed index = 4 + (-10) = -6, result = false
 ```
 
-#### Further Reading
+### Further Reading
 [Array.prototype.includes](https://github.com/tc39/Array.prototype.includes/) (Domenic Denicola, Rick Waldron)
 
-# Exponentiation Operator
+## Exponentiation Operator
 
 Exponentiation operator returns the result of raising the first operand to the power of the second (e.g. `x ** y`).
 It will return the same result as `Math.pow(x,y)`.
@@ -71,7 +71,7 @@ It will return the same result as `Math.pow(x,y)`.
 x ** y
 ```
 
-#### Example
+### Example
 
 ```js
 // x ** y (aka Math.pow(x,y))
@@ -82,11 +82,11 @@ var e = 2
 e **= 2  // 4
 ```
 
-#### Further Reading
+### Further Reading
 [Exponentiation Operator](https://github.com/rwaldron/exponentiation-operator) (Rick Waldron)
 
 ## Thanks to :beers:
-* [2ality.com](http://2ality.com/2016/01/ecmascript-2016.html) from [@rauschma](https://twitter.com/rauschma)
+* [2ality.com](http://2ality.com/2016/01/ecmascript-2016.html) by [Axel Rauschmayer](https://twitter.com/rauschma)
 * MDN documentation
     * [Array.prototype.includes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
     * [Exponentiation Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
